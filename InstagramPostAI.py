@@ -45,7 +45,7 @@ with open("img/image_"+CurrentDate+".jpg", "wb") as handler:
 
 #upload the image to the Google cloud storage bucket
 source_file_name="img/image_"+CurrentDate+".jpg"
-bucket_name="photoai"
+bucket_name="BUCKET_NAME"
 destination_blob_name="img/image_"+CurrentDate+".jpg"
 storage_client = storage.Client()
 bucket = storage_client.bucket(bucket_name)
@@ -54,5 +54,5 @@ blob.upload_from_filename(source_file_name)
 
 
 #Ayrshare API post image and story to instagram
-postResult = social.post({'post': StoryString, 'platforms': ['instagram'], 'mediaUrls': ['https://storage.googleapis.com/photoai/'+destination_blob_name]})
+postResult = social.post({'post': StoryString, 'platforms': ['instagram'], 'mediaUrls': ['https://storage.googleapis.com/BUCKET_NAME/'+destination_blob_name]})
 print(postResult)
