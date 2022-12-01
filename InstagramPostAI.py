@@ -6,15 +6,8 @@ from google.cloud import storage
 from ayrshare import SocialPost
 
 
-#pip3 install requests
-#pip3 install openai
-#pip3 install google
-#pip3 install social-post-api
-
-social = SocialPost('RNXEAGN-FQDMXNR-GSQ0A3R-814QZK1')
-openai.api_key ="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"
-
-
+social = SocialPost("AYRSHARE API KEY")
+openai.api_key ="OPENAI API KEY"
 CurrentDate=datetime.datetime.now().strftime("%d%m%Y")
 
 
