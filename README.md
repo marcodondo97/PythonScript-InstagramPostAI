@@ -45,7 +45,7 @@ crontab -e
 
 
 <h2> Images </h2>
-<img src="screenshot/screenshot1.png" width="20%"/>
+<img src="screenshot/screenshot1.png" width="70%"/>
 APIs flow diagram
 
 
