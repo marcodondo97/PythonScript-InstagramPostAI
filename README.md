@@ -3,7 +3,7 @@ Python script to publish and generate posts for Instagram through OpenAI
 
 
 <h2> Introduction </h2>
-In November 2022 OpenAI DALL-E released public APIs to generate images according to text descriptions. This python script can be used to publish an Instagram post auto-generated through OpenAI and DALL-E APIs. The generated image is saved in a Google cloud storage bucket, and it is published immediately on Instagram through Ayrshare Apis.
+In November 2022 OpenAI DALL-E released public APIs to generate images according to text descriptions. This python script can be used to publish an auto-generated Instagram post through OpenAI and DALL-E APIs. The generated image is saved in a Google cloud storage bucket, and it is published immediately on Instagram through Ayrshare Apis.
 
 <h2> Description </h2>
 This is a python script to autogenerate and publish new original posts and captions on Instagram through differnet APIs. <br>
