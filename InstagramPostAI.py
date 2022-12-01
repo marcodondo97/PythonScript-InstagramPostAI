@@ -6,8 +6,8 @@ from google.cloud import storage
 from ayrshare import SocialPost
 
 
-social = SocialPost("AYRSHARE API KEY")
-openai.api_key ="OPENAI API KEY"
+social = SocialPost("AYRSHARE_API_KEY")
+openai.api_key ="OPENAI_API_KEY"
 CurrentDate=datetime.datetime.now().strftime("%d%m%Y")
 
 
