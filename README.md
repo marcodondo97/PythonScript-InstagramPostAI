@@ -35,9 +35,9 @@ pip install openai
 pip install google
 pip install social-post-api
 
-#run the cronjob every 72 hours on linux server and print log file
+#run the cronjob on linux server
 crontab -e
-#copy and paste 
+#run and log the script every 72 hours
 0 */72 * * * cd /path && python DalleInstagramScript.py > /var/log/dalle_`date +\%Y\%m\%d\%H\%M\%S`-log.txt 2>&1
 ```
 
@@ -45,11 +45,7 @@ crontab -e
 
 
 <h2> Images </h2>
-<img src="screenshot/screenshot1.gif" width="20%"/>
-Demonstration of use
-<br>
-<br>
-<br>
-<img src="screenshot/screenshot2.gif" width="20%"/>
-Install the PWA
+<img src="screenshot/screenshot1.png" width="20%"/>
+APIs flow diagram
+
 
