@@ -32,8 +32,8 @@ Follow these steps:<br>
 #install the dependencies 
 pip install requests
 pip install openai
-pip install google
 pip install social-post-api
+pip install google-cloud-storage
 
 #run the cronjob on linux server
 crontab -e
